@@ -11,19 +11,15 @@ class Quantity extends Component {
     }
     
     add() {
-        this.setState({
-            count: this.state.count +1
-        }, () => {
-            console.log('Callback value', this.state.count)
-        })
+        this.setState(prevState => ({
+            count: prevState.count + 1
+        }))
     }
 
     remove() {
-        this.setState({
-            count: this.state.count -1
-        }, () => {
-            console.log('Callback value', this.state.count)
-        })
+        this.setState(prevState => ({
+            count: prevState.count ? prevState.count -1: 0
+        }))
     }
 
     render() {
