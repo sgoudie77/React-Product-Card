@@ -22,6 +22,14 @@ class Quantity extends Component {
         }))
     }
 
+    shouldComponentUpdate(nextProps, nextState) {
+        if (nextState.count !== this.state.count) {
+            return true
+        } else {
+            return false
+        }
+    }
+
     render() {
         return (
             <div className="quantity"> 
