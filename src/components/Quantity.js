@@ -10,6 +10,7 @@ class Quantity extends Component {
         }
     }
     
+    // add updateUmount function here
     add() {
         this.setState(prevState => ({
             count: prevState.count + 1
