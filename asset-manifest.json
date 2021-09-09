@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Product-Card/static/css/main.49fcbc2f.chunk.css",
+    "main.js": "/React-Product-Card/static/js/main.e88308b4.chunk.js",
+    "main.js.map": "/React-Product-Card/static/js/main.e88308b4.chunk.js.map",
+    "runtime-main.js": "/React-Product-Card/static/js/runtime-main.d6aa5138.js",
+    "runtime-main.js.map": "/React-Product-Card/static/js/runtime-main.d6aa5138.js.map",
+    "static/js/2.740df977.chunk.js": "/React-Product-Card/static/js/2.740df977.chunk.js",
+    "static/js/2.740df977.chunk.js.map": "/React-Product-Card/static/js/2.740df977.chunk.js.map",
+    "static/js/3.4e9a6606.chunk.js": "/React-Product-Card/static/js/3.4e9a6606.chunk.js",
+    "static/js/3.4e9a6606.chunk.js.map": "/React-Product-Card/static/js/3.4e9a6606.chunk.js.map",
+    "index.html": "/React-Product-Card/index.html",
+    "static/css/main.49fcbc2f.chunk.css.map": "/React-Product-Card/static/css/main.49fcbc2f.chunk.css.map",
+    "static/js/2.740df977.chunk.js.LICENSE.txt": "/React-Product-Card/static/js/2.740df977.chunk.js.LICENSE.txt",
+    "static/media/headphones.0027d2a1.png": "/React-Product-Card/static/media/headphones.0027d2a1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6aa5138.js",
+    "static/js/2.740df977.chunk.js",
+    "static/css/main.49fcbc2f.chunk.css",
+    "static/js/main.e88308b4.chunk.js"
+  ]
+}
