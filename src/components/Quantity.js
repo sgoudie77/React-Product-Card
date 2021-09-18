@@ -11,6 +11,14 @@ class Quantity extends Component {
     }
     
     // add updateUmount function here
+    updateAmount(value) {
+        if (value === 'add') {
+            this.add()
+        } else {
+            this.remove()
+        }
+    }
+    
     add() {
         this.setState(prevState => ({
             count: prevState.count + 1
@@ -36,8 +44,8 @@ class Quantity extends Component {
             <div className="quantity"> 
                 <h4>Quantity:</h4>              
                 <div className="amount">{this.state.count}</div>
-                <button className="btn-quantity" onClick={() => this.add()}>+</button>
-                <button className="btn-quantity" onClick={() => this.remove()}>-</button>
+                <button className="btn-quantity" onClick={() => this.updateAmount('add')}>+</button>
+                <button className="btn-quantity" onClick={() => this.updateAmount('remove')}>-</button>
             </div>
         )
     }
